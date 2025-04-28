@@ -1,5 +1,5 @@
 ### Clinical-Longformer for Personalized Clinical Predictions
-This repository contains code that implements a pipeline for fine-tuning the Clinical-Longformer model to predict personalized clinical outcomes from patient data. The model leverages clinical text to generate tailored predictions, enhancing patient-specific decision-making in healthcare settings.
+This repository contains code that implements a pipeline for fine-tuning the Clinical-Longformer model to predict personalized clinical referrals from patient data. The model leverages clinical text to generate tailored predictions, enhancing patient-specific decision-making in healthcare settings.
 
 ### Overview
 The code fine-tunes Clinical-Longformer, a transformer-based large language model pre-trained on clinical texts (e.g., MIMIC-III), to predict outcomes such as length of stay, readmission risk, mortality, or discharge disposition. It uses AWS SageMaker for scalable training and hyperparameter tuning, ensuring robust performance for personalized clinical applications.
