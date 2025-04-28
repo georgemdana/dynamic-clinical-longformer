@@ -43,7 +43,7 @@ Logging of confusion matrices and sample predictions with patient identifiers (F
 
 Creates a requirements.txt for SageMaker environment dependencies.
 
-### Model Training and Tuning:
+Model Training and Tuning:
 
 Initializes a HuggingFace estimator for SageMaker with Clinical-Longformer.
 Configures hyperparameter tuning (e.g., batch size, epochs, learning rate) using Random or Bayesian strategies.
